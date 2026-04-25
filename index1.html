@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Мій відеоплеєр</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #0f0f0f;
+        color: white;
+        font-family: Arial;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .player {
+        flex: 3;
+        padding: 20px;
+    }
+
+    video {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .playlist {
+        flex: 1;
+        background: #181818;
+        padding: 10px;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .item {
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #222;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .item:hover {
+        background: #333;
+    }
+</style>
+</head>
+
+<div>
+     <video controls>
+        <source src="movie 1.mp4" type="video/mp4">
+</div>
+
+</body>
+</html>
